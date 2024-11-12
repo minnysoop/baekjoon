@@ -6,13 +6,9 @@ typedef long long int lli;
 using namespace std;
 
 void solve() {
-    string s;
-    string r = "";
-    while( getline( cin, s ) ) {
-       r += s;
-       r += "\n";
-    }
-    cout << r << "\n";
+    char a;
+    cin >> a;
+    cout << (int)a << "\n";
 }
 
 int main(void) {

@@ -7,11 +7,8 @@ using namespace std;
 
 void solve() {
     string s;
-    string r = "";
-    while( getline( cin, s ) ) {
-       r += s;
-       r += "\n";
-    }
+    int r = 0;
+    while (cin >> s) {r++;}
     cout << r << "\n";
 }
 
